@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#fff, #fff, #fff);
+    height: 100vh;
+    overflow: hidden;
+}
+.center {
+    width: 500px;
+    height: auto;
+    margin: 150px auto!important;
+    position: relative;
+    border: medium none;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+}
+.center .header {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding: 25px 0 25px 25px;
+    background: #ddd;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+}
+.center form{
+    position: absolute;
+    background: white;
+    width: 100%;
+    padding: 10px 10px 0 30px;
+    box-sizing: border-box;
+    border: medium none;
+    box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 0 0 5px 5px;
+}
+form input{
+    height: 30px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    font-size: 18px;
+    outline: none;
+}
+form input[type="password"], input[type="text"], input[type="email"]{
+    margin-top: 20px;
+}
+form input[type="submit"]{
+    margin-top: 20px;
+    width: 95%;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    line-height: 45px;
+    border-radius: 5px;
+    background: #ddd;
+    margin-bottom: 20px;
+}
+form input[type="submit"]:hover{
+    background: #ccc;
+    transition: .5s;
+}
